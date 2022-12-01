@@ -1,0 +1,41 @@
+{
+    "name": "@ivanmaxlogiudice/eslint-config-vue",
+    "version": "0.0.2",
+    "description": "Personal ESLint configuration for Vue 3",
+    "homepage": "https://ivanmaxlogiudice.com/",
+    "keywords": [
+        "eslint",
+        "config",
+        "javascript",
+        "js",
+        "typescript",
+        "ts",
+        "vue",
+        "vue3"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ivanlogiudice/eslint-config.git",
+        "directory": "packages/eslint-config-vue"
+    },
+    "author": "Iván Máximiliano, Lo Giudice <ivanmaxlogiudice@gmail.com>",
+    "files": [
+        "index.js"
+    ],
+    "bugs": {
+        "url": "https://github.com/ivanlogiudice/eslint-config/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "eslint": "^8.28.0"
+    },
+    "devDependencies": {
+        "@ivanmaxlogiudice/eslint-config-ts": "workspace:0.0.2",
+        "eslint": "^8.28.0",
+        "eslint-plugin-vue": "^9.8.0",
+        "vue-eslint-parser": "^9.1.0"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "homepage": "https://ivanmaxlogiudice.com/",
+    "scripts": {
+        "lint": "eslint . --fix --config=packages/eslint-config/index.js",
+        "release": "lerna publish"
+    },
+    "devDependencies": {
+        "eslint": "^8.28.0",
+        "lerna": "^6.1.0"
+    }
+}
