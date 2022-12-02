@@ -34,7 +34,7 @@ importers:
 
   packages/eslint-config-ts:
     specifiers:
-      '@ivanmaxlogiudice/eslint-config': workspace:0.0.2
+      '@ivanmaxlogiudice/eslint-config': workspace:0.0.3
       '@typescript-eslint/eslint-plugin': ^5.45.0
       '@typescript-eslint/parser': ^5.45.0
       eslint: ^8.28.0
@@ -50,7 +50,7 @@ importers:
 
   packages/eslint-config-vue:
     specifiers:
-      '@ivanmaxlogiudice/eslint-config-ts': workspace:0.0.2
+      '@ivanmaxlogiudice/eslint-config-ts': workspace:0.0.3
       eslint: ^8.28.0
       eslint-plugin-vue: ^9.8.0
       vue-eslint-parser: ^9.1.0

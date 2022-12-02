@@ -1,6 +1,6 @@
 {
     "name": "@ivanmaxlogiudice/eslint-config",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Personal ESLint configuration",
     "homepage": "https://ivanmaxlogiudice.com/",
     "keywords": [
