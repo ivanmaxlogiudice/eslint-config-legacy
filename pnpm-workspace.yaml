@@ -1,4 +1,2 @@
 packages:
-  - 'packages/eslint-config'
-  - 'packages/eslint-config-ts'
-  - 'packages/eslint-config-vue'
+  - 'packages/*'
