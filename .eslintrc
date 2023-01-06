@@ -1,0 +1,5 @@
+{
+    "extends": [
+        "@ivanmaxlogiudice/eslint-config"
+    ]
+}

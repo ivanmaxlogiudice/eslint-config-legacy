@@ -2,26 +2,26 @@
     "name": "@ivanmaxlogiudice/eslint-config",
     "version": "0.0.2",
     "description": "Personal ESLint configuration",
+    "author": "Iván Máximiliano, Lo Giudice <ivanmaxlogiudice@gmail.com>",
+    "license": "MIT",
     "homepage": "https://ivanmaxlogiudice.com/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ivanlogiudice/eslint-config.git",
+        "directory": "packages/eslint-config"
+    },
+    "bugs": {
+        "url": "https://github.com/ivanlogiudice/eslint-config/issues"
+    },
     "keywords": [
         "eslint",
         "config",
         "javascript",
         "js"
     ],
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ivanlogiudice/eslint-config.git",
-        "directory": "packages/eslint-config"
-    },
-    "author": "Iván Máximiliano, Lo Giudice <ivanmaxlogiudice@gmail.com>",
     "files": [
         "index.js"
     ],
-    "bugs": {
-        "url": "https://github.com/ivanlogiudice/eslint-config/issues"
-    },
     "publishConfig": {
         "access": "public"
     },
@@ -30,15 +30,22 @@
     },
     "dependencies": {
         "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-antfu": "^0.34.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-html": "^7.1.0",
         "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-jsonc": "^2.6.0",
+        "eslint-plugin-markdown": "^3.0.0",
         "eslint-plugin-n": "^15.6.0",
+        "eslint-plugin-no-only-tests": "^3.1.0",
         "eslint-plugin-promise": "^6.1.1",
         "eslint-plugin-tailwindcss": "^3.8.0",
         "eslint-plugin-unicorn": "^45.0.2",
+        "eslint-plugin-yml": "^1.4.0",
         "jsonc-eslint-parser": "^2.1.0"
     },
     "devDependencies": {
-        "eslint": "^8.31.0"
+        "eslint": "^8.31.0",
+        "typescript": "^4.9.4"
     }
 }
