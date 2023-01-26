@@ -347,5 +347,16 @@ module.exports = {
         // antfu
         'antfu/if-newline': 'error',
         'antfu/import-dedupe': 'error',
+
+        // standard
+        // fix until https://github.com/standard/eslint-config-standard/pull/263 is accepted
+        'no-mixed-operators': ['error', {
+            groups: [
+                ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
+                ['&&', '||', '?:'],
+                ['in', 'instanceof'],
+            ],
+            allowSamePrecedence: true,
+        }],
     },
 }
