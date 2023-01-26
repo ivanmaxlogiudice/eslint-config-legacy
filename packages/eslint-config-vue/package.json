@@ -36,11 +36,11 @@
     "dependencies": {
         "@ivanmaxlogiudice/eslint-config": "workspace:*",
         "@ivanmaxlogiudice/eslint-config-ts": "workspace:*",
-        "eslint-plugin-vue": "^9.9.0"
-    },
-    "devDependencies": {
-        "eslint": "^8.32.0",
+        "eslint-plugin-vue": "^9.9.0",
         "local-pkg": "^0.4.3",
         "vue-eslint-parser": "^9.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.32.0"
     }
 }
