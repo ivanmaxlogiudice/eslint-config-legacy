@@ -1,0 +1,1 @@
+- Replace jest for vitest support in eslint-config-ts
