@@ -25,7 +25,6 @@ importers:
       eslint-plugin-n: ^15.6.1
       eslint-plugin-no-only-tests: ^3.1.0
       eslint-plugin-promise: ^6.1.1
-      eslint-plugin-tailwindcss: ^3.8.2
       eslint-plugin-unicorn: ^45.0.2
       eslint-plugin-yml: ^1.4.0
       jsonc-eslint-parser: ^2.1.0
@@ -41,7 +40,6 @@ importers:
       eslint-plugin-n: 15.6.1_eslint@8.32.0
       eslint-plugin-no-only-tests: 3.1.0
       eslint-plugin-promise: 6.1.1_eslint@8.32.0
-      eslint-plugin-tailwindcss: 3.8.2_7uibuqfxkfaozanbtbziikiqje
       eslint-plugin-unicorn: 45.0.2_eslint@8.32.0
       eslint-plugin-yml: 1.4.0_eslint@8.32.0
       jsonc-eslint-parser: 2.1.0
@@ -84,22 +82,6 @@ importers:
       vue-eslint-parser: 9.1.0_eslint@8.32.0
 
 packages:
-
-  /@angular-eslint/bundled-angular-compiler/15.2.0:
-    resolution: {integrity: sha512-a0bfXxYyGoWJHrVQ4QER0HdRgselcTtJeyqiFPAxID2ZxF0IBGKLNTtugUTXekEmiLev8yGLX9TqAtthN57fEg==}
-    dev: false
-
-  /@angular-eslint/template-parser/15.2.0_7uibuqfxkfaozanbtbziikiqje:
-    resolution: {integrity: sha512-xnnxPfV/G0Ll3B0HGrF1ucsc/DHmNE6UhhmWxYPTERq0McbZGRiATa66hCoOZ/Rdylun4ogBfsRKAG8XxEvlvw==}
-    peerDependencies:
-      eslint: ^7.20.0 || ^8.0.0
-      typescript: '*'
-    dependencies:
-      '@angular-eslint/bundled-angular-compiler': 15.2.0
-      eslint: 8.32.0
-      eslint-scope: 7.1.1
-      typescript: 4.9.4
-    dev: false
 
   /@babel/code-frame/7.18.6:
     resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==}
@@ -929,23 +911,6 @@ packages:
       eslint: 8.32.0
     dev: false
 
-  /eslint-plugin-tailwindcss/3.8.2_7uibuqfxkfaozanbtbziikiqje:
-    resolution: {integrity: sha512-99DPr//xTFNls1xjXX+1p45OEvG87B+SiNkSi0DfeatKBnckjCO5831lUfwCisXSgzXd9p//gNKQJGq1ewCLJQ==}
-    engines: {node: '>=12.13.0'}
-    peerDependencies:
-      tailwindcss: ^3.2.2
-    dependencies:
-      '@angular-eslint/template-parser': 15.2.0_7uibuqfxkfaozanbtbziikiqje
-      '@typescript-eslint/parser': 5.49.0_7uibuqfxkfaozanbtbziikiqje
-      fast-glob: 3.2.12
-      postcss: 8.4.21
-      vue-eslint-parser: 9.1.0_eslint@8.32.0
-    transitivePeerDependencies:
-      - eslint
-      - supports-color
-      - typescript
-    dev: false
-
   /eslint-plugin-unicorn/45.0.2_eslint@8.32.0:
     resolution: {integrity: sha512-Y0WUDXRyGDMcKLiwgL3zSMpHrXI00xmdyixEGIg90gHnj0PcHY4moNv3Ppje/kDivdAy5vUeUr7z211ImPv2gw==}
     engines: {node: '>=14.18'}
@@ -1689,12 +1654,6 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: false
 
-  /nanoid/3.3.4:
-    resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-    dev: false
-
   /natural-compare-lite/1.4.0:
     resolution: {integrity: sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==}
     dev: false
@@ -1840,10 +1799,6 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /picocolors/1.0.0:
-    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
-    dev: false
-
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -1859,15 +1814,6 @@ packages:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
-    dev: false
-
-  /postcss/8.4.21:
-    resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.4
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
     dev: false
 
   /prelude-ls/1.2.1:
@@ -2017,11 +1963,6 @@ packages:
   /slash/3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
-    dev: false
-
-  /source-map-js/1.0.2:
-    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
-    engines: {node: '>=0.10.0'}
     dev: false
 
   /spdx-correct/3.1.1:

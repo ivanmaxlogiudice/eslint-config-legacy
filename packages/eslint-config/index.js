@@ -12,7 +12,6 @@ module.exports = {
         'plugin:jsonc/recommended-with-jsonc',
         'plugin:yml/standard',
         'plugin:markdown/recommended',
-        'plugin:tailwindcss/recommended',
     ],
     ignorePatterns: [
         '*.min.*',
@@ -36,7 +35,6 @@ module.exports = {
     plugins: [
         'html',
         'unicorn',
-        'tailwindcss',
         'antfu',
         'no-only-tests',
     ],
