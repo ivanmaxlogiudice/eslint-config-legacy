@@ -1,1 +1,1 @@
-- Replace jest for vitest support in eslint-config-ts
+- Replace jest for vitest support in eslint-config-ts (https://github.com/veritem/eslint-plugin-vitest)
