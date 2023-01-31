@@ -79,9 +79,6 @@ module.exports = {
         'indent': 'off',
         '@typescript-eslint/indent': ['error', 4, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
 
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-
         'no-redeclare': 'off',
         '@typescript-eslint/no-redeclare': 'error',
 
@@ -155,17 +152,8 @@ module.exports = {
         '@typescript-eslint/no-namespace': 'off',
         '@typescript-eslint/triple-slash-reference': 'off',
 
-        // other
-        // 'unused-imports/no-unused-imports': 'warn',
-        // 'unused-imports/no-unused-vars': [
-        //     'warn',
-        //     {
-        //         vars: 'all',
-        //         varsIgnorePattern: '^_',
-        //         args: 'after-used',
-        //         argsIgnorePattern: '^_',
-        //     },
-        // ],
+        // handled by unused-imports/no-unused-imports
+        '@typescript-eslint/no-unused-vars': 'off',
 
         'padding-line-between-statements': [
             'error',

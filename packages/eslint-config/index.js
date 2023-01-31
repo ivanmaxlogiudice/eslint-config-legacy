@@ -37,6 +37,7 @@ module.exports = {
         'unicorn',
         'antfu',
         'no-only-tests',
+        'unused-imports',
     ],
     settings: {
         'import/resolver': {
@@ -180,6 +181,8 @@ module.exports = {
                 'no-alert': 'off',
                 'no-console': 'off',
                 'no-restricted-imports': 'off',
+                'unused-imports/no-unused-imports': 'off',
+                'unused-imports/no-unused-vars': 'off',
                 'no-undef': 'off',
                 'no-unused-expressions': 'off',
                 'no-unused-vars': 'off',
@@ -196,6 +199,18 @@ module.exports = {
         'import/no-named-as-default-member': 'off',
         'import/no-named-as-default': 'off',
         'import/namespace': 'off',
+
+        // unused imports
+        'unused-imports/no-unused-imports': 'error',
+        'unused-imports/no-unused-vars': [
+            'warn',
+            {
+                vars: 'all',
+                varsIgnorePattern: '^_',
+                args: 'after-used',
+                argsIgnorePattern: '^_',
+            },
+        ],
 
         // Common
         'semi': ['error', 'never'],
