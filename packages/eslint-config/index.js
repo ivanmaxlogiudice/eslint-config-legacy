@@ -235,7 +235,7 @@ module.exports = {
         'indent': ['error', 4, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
         'no-restricted-syntax': ['error', 'DebuggerStatement', 'LabeledStatement', 'WithStatement'],
         'object-curly-spacing': ['error', 'always'],
-        'no-return-await': 'off', //
+        'no-return-await': 'off',
         'space-before-function-paren': [
             'error',
             {
