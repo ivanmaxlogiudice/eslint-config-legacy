@@ -30,6 +30,7 @@ importers:
       eslint-plugin-yml: ^1.5.0
       jsonc-eslint-parser: ^2.1.0
       typescript: ^4.9.5
+      yaml-eslint-parser: ^1.1.0
     dependencies:
       eslint-config-standard: 17.0.0_rwq7hzy2vtlwiajbw6pmw3rkzy
       eslint-plugin-antfu: 0.35.2_7kw3g6rralp5ps6mg3uyzz6azm
@@ -45,6 +46,7 @@ importers:
       eslint-plugin-unused-imports: 2.0.0_eslint@8.34.0
       eslint-plugin-yml: 1.5.0_eslint@8.34.0
       jsonc-eslint-parser: 2.1.0
+      yaml-eslint-parser: 1.1.0
     devDependencies:
       eslint: 8.34.0
       typescript: 4.9.5
