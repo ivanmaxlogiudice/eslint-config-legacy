@@ -2,6 +2,8 @@
     "name": "@ivanmaxlogiudice/eslint-config-monorepo",
     "version": "0.1.2",
     "private": true,
+    "packageManager": "pnpm@7.27.0",
+    "license": "MIT",
     "homepage": "https://ivanmaxlogiudice.com/",
     "scripts": {
         "lint": "eslint . --fix --config=packages/eslint-config/index.js",
