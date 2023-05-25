@@ -199,6 +199,7 @@ module.exports = {
         'import/no-named-as-default-member': 'off',
         'import/no-named-as-default': 'off',
         'import/namespace': 'off',
+        'import/newline-after-import': ['error', { count: 1, considerComments: true }],
 
         // unused imports
         'unused-imports/no-unused-imports': 'error',
