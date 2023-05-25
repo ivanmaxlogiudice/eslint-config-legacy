@@ -361,7 +361,9 @@ module.exports = {
         'unicorn/prefer-node-protocol': 'error',
 
         'eslint-comments/disable-enable-pair': 'off',
+
         // Enforce Node.js-style error-first callback pattern is followed
+        'n/prefer-global/buffer': ['error', 'never'],
         'n/no-callback-literal': 'off',
 
         'sort-imports': [
