@@ -60,6 +60,7 @@ module.exports = {
         'vue/no-v-text-v-html-on-component': 'error',
         'vue/padding-line-between-blocks': ['error', 'always'],
         'vue/prefer-separate-static-class': 'error',
+        'vue/no-dupe-keys': 'off',
 
         // extensions
         'vue/array-bracket-spacing': ['error', 'never'],
