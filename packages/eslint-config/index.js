@@ -59,7 +59,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['*.json', '*.json5'],
+            files: ['*.json', '*.json5', '*.jsonc'],
             parser: 'jsonc-eslint-parser',
             rules: {
                 'jsonc/array-bracket-spacing': ['error', 'never'],
@@ -156,9 +156,10 @@ module.exports = {
             },
         },
         {
-            files: ['*.js'],
+            files: ['*.js', '*.cjs', '*.jsx'],
             rules: {
                 '@typescript-eslint/no-var-requires': 'off',
+                '@typescript-eslint/no-require-imports': 'off',
             },
         },
         {
