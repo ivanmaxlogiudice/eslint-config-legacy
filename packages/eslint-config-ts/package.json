@@ -33,12 +33,12 @@
     },
     "dependencies": {
         "@ivanmaxlogiudice/eslint-config": "workspace:*",
-        "@typescript-eslint/eslint-plugin": "^5.57.0",
-        "@typescript-eslint/parser": "^5.57.0",
+        "@typescript-eslint/eslint-plugin": "^5.59.7",
+        "@typescript-eslint/parser": "^5.59.7",
         "eslint-plugin-jest": "^27.2.1"
     },
     "devDependencies": {
-        "eslint": "^8.37.0",
-        "typescript": "^5.0.3"
+        "eslint": "^8.41.0",
+        "typescript": "^5.0.4"
     }
 }
