@@ -31,6 +31,7 @@ module.exports = {
         '!.github',
         '!.vitepress',
         '!.vscode',
+        '.vitepress/cache',
     ],
     plugins: [
         'html',
