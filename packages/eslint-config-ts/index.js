@@ -78,6 +78,9 @@ module.exports = {
         'indent': 'off',
         '@typescript-eslint/indent': ['error', 4, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
 
+        'no-invalid-this': 'off',
+        '@typescript-eslint/no-invalid-this': 'error',
+
         'no-redeclare': 'off',
         '@typescript-eslint/no-redeclare': 'error',
 
