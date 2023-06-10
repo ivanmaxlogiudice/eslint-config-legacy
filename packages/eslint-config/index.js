@@ -268,7 +268,6 @@ module.exports = {
             'error',
             { name: 'global', message: 'Use `globalThis` instead.' },
             { name: 'self', message: 'Use `globalThis` instead.' },
-            { name: 'window', message: 'Use `globalThis` instead.' },
             { name: 'isNaN', message: 'Use `Number.isNaN` instead' },
             { name: 'isFinite', message: 'Use `Number.isFinite` instead' },
             { name: 'parseFloat', message: 'Use `Number.parseFloat` instead' },
@@ -280,6 +279,10 @@ module.exports = {
             { object: 'globalThis', property: 'isFinite', message: 'Use `Number.isFinite` instead' },
             { object: 'globalThis', property: 'parseFloat', message: 'Use `Number.parseFloat` instead' },
             { object: 'globalThis', property: 'parseInt', message: 'Use `Number.parseInt` instead' },
+            { object: 'window', property: 'isNaN', message: 'Use `Number.isNaN` instead' },
+            { object: 'window', property: 'isFinite', message: 'Use `Number.isFinite` instead' },
+            { object: 'window', property: 'parseFloat', message: 'Use `Number.parseFloat` instead' },
+            { object: 'window', property: 'parseInt', message: 'Use `Number.parseInt` instead' },
         ],
 
         // ES6
