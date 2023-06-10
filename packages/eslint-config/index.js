@@ -264,7 +264,23 @@ module.exports = {
             },
         ],
         'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
-        'no-restricted-globals': ['error', { name: 'global', message: 'Use `globalThis` instead.' }],
+        'no-restricted-globals': [
+            'error',
+            { name: 'global', message: 'Use `globalThis` instead.' },
+            { name: 'self', message: 'Use `globalThis` instead.' },
+            { name: 'window', message: 'Use `globalThis` instead.' },
+            { name: 'isNaN', message: 'Use `Number.isNaN` instead' },
+            { name: 'isFinite', message: 'Use `Number.isFinite` instead' },
+            { name: 'parseFloat', message: 'Use `Number.parseFloat` instead' },
+            { name: 'parseInt', message: 'Use `Number.parseInt` instead' },
+        ],
+        'no-restricted-properties': [
+            'error',
+            { object: 'globalThis', property: 'isNaN', message: 'Use `Number.isNaN` instead' },
+            { object: 'globalThis', property: 'isFinite', message: 'Use `Number.isFinite` instead' },
+            { object: 'globalThis', property: 'parseFloat', message: 'Use `Number.parseFloat` instead' },
+            { object: 'globalThis', property: 'parseInt', message: 'Use `Number.parseInt` instead' },
+        ],
 
         // ES6
         'no-var': 'error',
