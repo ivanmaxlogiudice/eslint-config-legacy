@@ -264,6 +264,7 @@ module.exports = {
             },
         ],
         'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
+        'no-restricted-globals': ['error', { name: 'global', message: 'Use `globalThis` instead.' }],
 
         // ES6
         'no-var': 'error',
