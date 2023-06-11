@@ -1,6 +1,6 @@
 {
     "name": "@ivanmaxlogiudice/eslint-config-ts",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Personal ESLint configuration for TS",
     "author": "Iván Máximiliano, Lo Giudice <ivanmaxlogiudice@gmail.com>",
     "license": "MIT",
