@@ -1,6 +1,6 @@
 {
     "name": "@ivanmaxlogiudice/eslint-config-monorepo",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "private": true,
     "packageManager": "pnpm@7.27.0",
     "license": "MIT",
@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "@ivanmaxlogiudice/eslint-config": "workspace:*",
-        "bumpp": "^9.1.0",
-        "eslint": "^8.41.0"
+        "bumpp": "^9.1.1",
+        "eslint": "^8.42.0"
     }
 }
